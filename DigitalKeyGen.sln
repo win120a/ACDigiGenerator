@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGenDll", "KeyGenDll\KeyGenDll.csproj", "{6F3FC208-FB2D-420A-847F-912402D71DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{D1836DEC-AC47-4A33-A219-56B11C65CD7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F3FC208-FB2D-420A-847F-912402D71DCC} = {6F3FC208-FB2D-420A-847F-912402D71DCC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGenUI", "KeyGenUI\KeyGenUI.csproj", "{13C531EF-27B4-4952-B6F1-F1AB606FAC14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F3FC208-FB2D-420A-847F-912402D71DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3FC208-FB2D-420A-847F-912402D71DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3FC208-FB2D-420A-847F-912402D71DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3FC208-FB2D-420A-847F-912402D71DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1836DEC-AC47-4A33-A219-56B11C65CD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1836DEC-AC47-4A33-A219-56B11C65CD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1836DEC-AC47-4A33-A219-56B11C65CD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1836DEC-AC47-4A33-A219-56B11C65CD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C531EF-27B4-4952-B6F1-F1AB606FAC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C531EF-27B4-4952-B6F1-F1AB606FAC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C531EF-27B4-4952-B6F1-F1AB606FAC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C531EF-27B4-4952-B6F1-F1AB606FAC14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
